@@ -1,0 +1,2 @@
+ALTER TABLE `products` ADD `brand_id` BIGINT UNSIGNED NULL DEFAULT NULL AFTER `sub_id`;
+ALTER TABLE `settings` ADD `facebook` VARCHAR(255) NULL DEFAULT NULL AFTER `contact_no`, ADD `instagram` VARCHAR(255) NULL DEFAULT NULL AFTER `facebook`, ADD `youtube` VARCHAR(255) NULL DEFAULT NULL AFTER `instagram`;
